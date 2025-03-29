@@ -66,7 +66,7 @@ Authenticate a user and get a JWT token.
 **Request Body:**
 ```json
 {
-  "username": "john",
+  "username": "orangpertama",
   "password": "password123"
 }
 ```
@@ -78,7 +78,7 @@ Authenticate a user and get a JWT token.
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
   "user": {
     "id": 1,
-    "username": "john"
+    "username": "orangpertama"
   }
 }
 ```
@@ -94,7 +94,7 @@ Get user information by ID. This endpoint only returns the username for security
 **Response Example:**
 ```json
 {
-  "username": "john"
+  "username": "orangpertama"
 }
 ```
 
@@ -110,7 +110,7 @@ Get the authenticated user's balance. Requires authentication.
 ```json
 {
   "status": "success",
-  "user": "john",
+  "user": "orangpertama",
   "balance": 1000.50
 }
 ```
@@ -134,12 +134,12 @@ The API returns appropriate HTTP status codes along with error messages in the r
 For development and testing purposes, the application comes with two predefined users:
 
 1. **User 1**
-   - Username: john
+   - Username: orangpertama
    - Password: password123
    - Balance: 1000.50
 
 2. **User 2**
-   - Username: jane
-   - Password: secret456
+   - Username: orangkedua
+   - Password: password123
    - Balance: 2500.75
 ---
